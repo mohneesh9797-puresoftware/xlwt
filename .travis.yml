@@ -1,7 +1,9 @@
 # for container-y goodness:
 sudo: false
 cache: pip
-
+arch : 
+    - amd64
+    - arm64
 language: python
 
 matrix:
